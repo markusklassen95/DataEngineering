@@ -4,10 +4,10 @@ This project is containerize with Docker and works on Linux OS.
 The goal is to process large data or files efficiently and store them securely and redundant.
 # Requirements
 1. Linux OS (eg Ubuntu)
-2. `Docker` and `Docker-engine` installed on the host. Check it with
+2. `Docker` and `Docker-compose` installed on the host. Check it with
 ```
 docker -version
-docker-engine -version
+docker-compose -version
 ```
 3. A file directory `~/Data` on the host. **Important: the data that you want to process must be located in this directory**
 # Set up and run 
