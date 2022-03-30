@@ -11,7 +11,7 @@ docker-engine -version
 ```
 3. A file directory `~/Data` on the host. **Important: the data that you want to process must be located in this directory**
 # Set up and run 
-Download and unzip the code from `https://github.com/markusklassen95/DataEngineering`.  
+Download and unzip the code from `https://github.com/markusklassen95/DataEngineering.git`.  
 There you can find, among other things, two files: `Batch_ExecuteSingleFile.sh` and `Batch_ExecuteFolder.sh`.  
 `Batch_ExecuteSingleFile.sh` is to process a single file.  
 `Batch_ExecuteFolder.sh` is to process all files in the folder.  
