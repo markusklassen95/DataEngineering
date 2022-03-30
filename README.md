@@ -27,7 +27,7 @@ You will then be prompted to enter the file name of the file to be processed. *P
 Which file du you want to process?
 
 ```
-After entering the file name, the Docker containers are started and the batch process is executed.  
+After entering the file name, the Docker containers are started and the batch process is executed fully automatic.  
 The Data is stored in the Hadoop Distributed File System (HDFS) in the directory `hdfs://Output/filename`
 ## Process all files in a folder  
 When you want to batch procssing all files in `~/Data`, run
@@ -39,7 +39,7 @@ You will then be prompted to enter the folder of the target directory in HDFS.
 Please enter the foldername of the target directory in HDFS:
 
 ```
-After entering the folder name, the Docker containers are started and the batch process is executed.  
+After entering the folder name, the Docker containers are started and the batch process is executed fully automatic.  
 The Data is stored in the Hadoop Distributed File System (HDFS) in the directory `hdfs://Output/foldername`
 
 # Pre-processing data
